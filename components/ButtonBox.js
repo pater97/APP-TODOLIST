@@ -10,8 +10,8 @@ function ButtonBox(props) {
     }
 
     return (
-        <Pressable  style={[commonStyle.buttonBox,commonStyle.titleBg]}>
-            <Text style={[commonStyle.whiteColor,commonStyle.boldFont]} onPress={pressing} >{props.label}</Text>
+        <Pressable  style={[commonStyle.buttonBox,commonStyle.titleBg,commonStyle.centerItems,props.bg]}>
+            <Text style={[commonStyle.whiteColor,commonStyle.boldFont,props.styleCss]} onPress={pressing} >{props.label}</Text>
         </Pressable>
     );
 };

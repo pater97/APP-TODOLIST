@@ -124,7 +124,7 @@ function App() {
     <SafeAreaView style={[commonStyle.genericContainer, commonStyle.paddingContainer]}>
       <ScrollView
         refreshControl={<RefreshControl refreshing={refreshing} colors={[`#8a2be2`]} enabled={true} onRefresh={onRefresh} />}>
-        {/* <View className="title" style={commonStyle.container2}>
+        <View className="title" style={commonStyle.container2}>
           <Text style={commonStyle.titleFont}>TODOLIST</Text>
           <ModalBox
             AppCalback={getValueInput}
@@ -163,7 +163,7 @@ function App() {
             callback={removeValue}
             />
           </View>
-        } */}
+        }
       </ScrollView>
     </SafeAreaView>
   );

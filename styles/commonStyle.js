@@ -88,5 +88,8 @@ export default StyleSheet.create({
     },
     lineThrough:{
         textDecorationLine:'line-through'
+    },
+    secondaryBg:{
+        backgroundColor: '#ff69b4'
     }
 })
